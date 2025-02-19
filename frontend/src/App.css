@@ -1,0 +1,14 @@
+.app{
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.toastContainer{
+
+    font-size:14px !important;
+
+
+}
+

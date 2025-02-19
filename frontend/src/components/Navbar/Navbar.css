@@ -1,0 +1,69 @@
+
+
+.navbar{
+    height:100px;
+    background:rgb(199, 199, 199);
+}
+
+.navbar .main-area{
+
+    display:flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar .left{
+    width:25%;
+}
+
+.navbar .center{
+    width:50%;
+    display:flex;
+    gap:20px;
+    justify-content: center;
+
+}
+
+.navbar .right{
+    width:25%;
+    display:flex;
+    justify-content: end;
+}
+
+.navbar .button-container{
+
+    display:flex;
+    gap:1rem;
+}
+
+
+.navbar button{
+
+    padding:10px 20px;
+    font-size:12px;
+    border-radius:3px;
+    border:none;
+    font-weight: 300;
+    cursor:pointer;
+
+}
+
+.confirm-button{
+    background: #00d301 !important;
+    background: -webkit-linear-gradient(-196deg,#00d301,#36c275 50%,#00a562) !important;
+    background: -webkit-linear-gradient(164deg,#00d301,#36c275 50%,#00a562) !important;
+    background: linear-gradient(286deg,#00d301,#36c275 50%,#00a562) !important;
+    transition: background,color .1s ease-in-out !important;
+    border:none !important;
+    outline:none !important;
+    
+}
+
+.confirm-button:focus{
+    border:none !important;
+    outline:none !important;
+    box-shadow: none !important;
+}
+
+
